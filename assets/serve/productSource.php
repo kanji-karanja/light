@@ -2,6 +2,7 @@
 function getData($selection){
     $item = '';
     $conn= new mysqli("localhost","root","","light");
+    //$conn= new mysqli("den1.mysql4.gear.host","lightke","Ad177J~i74Y!","lightke");
     $sql = "SELECT * FROM products WHERE type='$selection'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {

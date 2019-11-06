@@ -81,7 +81,7 @@ require './assets/serve/productSource.php';
         <button type="button" class="btn btn-primary"><i class="fa fa-facebook-f" style="padding-right: 5px;"></i></button><br>
         <button type="button" class="btn btn-primary" style="margin-top: 5px;"><i class="fa fa-twitter"></i></button>
     </aside>
-    <div id="chandeliers">
+    <div id="chandelier">
 	<h1>Chandeliers</h1>
 	<div class="row">
         <?php getData('chandelier');?>
